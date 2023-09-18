@@ -1,0 +1,24 @@
+.head-background {
+    height: 150px;
+    text-align: right;
+    background-image: url('images/background.jpg');
+    background-size: auto;
+}
+
+.card-body {
+    background-image: linear-gradient(to bottom right, rgba(7, 80, 7, 0.507), rgba(0, 128, 0, 0.03)) ;
+}
+
+.body-background {
+    background-image: url('images/body-background');
+}
+
+h1 {
+    color: rgb(10, 10, 10);
+    font-family: Cursive;
+    font-style: italic;
+}
+
+img {
+    border-radius: 50%;
+}
