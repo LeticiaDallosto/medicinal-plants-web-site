@@ -5,12 +5,17 @@
     background-size: auto;
 }
 
-.card-body {
-    background-image: linear-gradient(to bottom right, rgba(7, 80, 7, 0.507), rgba(0, 128, 0, 0.03)) ;
+.card-green-background {
+    background-image: linear-gradient(to bottom right, rgba(7, 80, 7, 0.507), rgba(0, 128, 0, 0.03));
 }
 
-.body-background {
-    background-image: url('images/body-background');
+.body-image-background-home-page {
+    background-image: url('images/card-body-home-page-background.jpg');
+}
+
+.body-image-background {
+    background-image: url('images/card-body-background.jpg');
+    background-size: cover;
 }
 
 h1 {
@@ -19,6 +24,100 @@ h1 {
     font-style: italic;
 }
 
+h2 {
+    font-family: "Verdana", sans-serif; 
+    font-size: 20px; 
+    font-weight: bold; 
+    color: #333; 
+    margin: 10px 0; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    display: inline-block;
+}
+
+h2::before {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #333;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease-in-out;
+}
+  
+/* Efeito de sublinhado ao passar o mouse */
+h2:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+h3 {
+    font-family: "Verdana", sans-serif; 
+    font-size: 16px; 
+    color: #333; 
+    margin: 10px 0; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    display: inline-block;
+}
+
 img {
     border-radius: 50%;
+    box-shadow:  8px 8px 18px rgba(7, 80, 7, 0.507), -8px -8px 18px rgba(0, 128, 0, 0.03);
 }
+
+.body-container {
+    background-image: url('images/card-body-container-background.jpg');
+    background-size: cover;
+    width: 440px;
+    top: 0;
+    padding: 20px;
+    border-radius: 40px;
+    margin: auto;
+    box-shadow:  8px 8px 18px rgba(7, 80, 7, 0.507), -8px -8px 18px rgba(0, 128, 0, 0.03);
+}
+
+.btn-success {
+    width: 200px;
+    color: rgb(7, 43, 18);
+    background-color: white;
+    background-image: linear-gradient(to bottom right, rgba(7, 80, 7, 0.223),  rgba(255, 255, 255, 0.03));
+    border-color: transparent;
+    border-radius: 30px;
+    box-shadow:  8px 8px 18px rgba(7, 80, 7, 0.507), -8px -8px 18px rgba(0, 128, 0, 0.03);
+}
+
+.btn-success:hover {
+    background-color: #ffffff;
+    border-style: none;
+    color: #000000; 
+}
+
+ol {
+    list-style: none; 
+    padding: 5px;
+}
+
+ol li {
+    margin-bottom: 10px;
+    padding-left: 20px; 
+    position: relative;
+    text-align: left;
+}
+
+ol li::before {
+    content: counter(list-item); 
+    color: #333; 
+    font-weight: bold;
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+}
+
+
+
