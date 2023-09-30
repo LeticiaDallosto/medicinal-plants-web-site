@@ -7,6 +7,9 @@
     <title>Plantas Medicinais RS</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <link rel="stylesheet" href="styles.css" type="text/css" />
 </head>
 
@@ -14,6 +17,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
 
     <div class="head-background">
         <div class="container">
@@ -34,6 +39,14 @@
                     <a href="erva-santa.html">
                         <img src="images/erva-santa(aloysia gratissima).jpg" width="500px" />
                     </a>
+                    <div class="plant-card">
+                        <div class="recipe">
+                            <h4>Modo de Preparo:</h4>
+                            <p><i class="fas fa-coffee recipe-icon"></i> Utilize 1 colher de sobremesa de folhas secas </p>
+                            <p><i class="fas fa-coffee recipe-icon"></i> Adicione as folhas a 1 xícara de chá de água fervente </p>
+                            <p><i class="fas fa-coffee recipe-icon"></i> Cubra a xícara e deixe em infusão por 10-15 minutos</p>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="col-md-2">
@@ -54,62 +67,42 @@
                 </div>
 
                 <div class="col-md-4 body-container">
+                    
+                    <h6 class="card-header container-title"><i class="fa-solid fa-leaf recipe-icon"></i>Características da Planta</h6>
+                    <br>
+                    <div class="card-body">
+                        É um arbusto que permanece por longo tempo e pode crescer até uma altura de 1 a 3
+                        metros. Suas horas são lanceoladas e de cor verde brilhante.
+                    </div>
+                    <br>
+                    
+                    <h6 class="card-header container-title"><i class="fa-solid fa-leaf recipe-icon"></i>Forma de Cultivo</h6>
+                    <br>
+                    <div class="card-body">
+                        <p>É comum encontrá-la em diversos tipos de habitats: campos, beira de matas junto
+                            com arbustos pioneiros e ferrovias:</p>
+                        <ul>
+                            <li>Não é exigente quanto ao solo;</li>
+                            <li>Arenosos e pobres, argilosos, humosos e pedregosos;</li>
+                            <li>Quando nova exige meia-sombra;</li>
+                            <li>Quando adulta tolera locais ensolarados;</li>
+                            <li>Prefere solos revirados e rico em matéria orgânica.</li>
+                        </ul>
+                    </div>
+                    <br>
+
                     <div class="row" class="d-inline-flex gap-1">
                         <div class="col">
-                            <a class="btn btn-success btn-success:hover" type="button" data-bs-toggle="collapse"
+                            <a class="btn container-title" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseExample" aria-expanded="false"
-                                aria-controls="collapseExample"><i>Características
-                                    da Planta</i></a>
+                                aria-controls="collapseExample"><i>Distribuição Geográfica</i></a>
                         </div>
                     </div>
                     <br>
                     <div class="row">
                         <div class="col-md-12">
                             <div class="collapse" id="collapseExample">
-                                <div class="card card-body">
-                                    Carascterísticas da planta
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <br>
-
-                    <div class="row" class="d-inline-flex gap-1">
-                        <div class="col">
-                            <a class="btn btn-success btn-success:hover" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseExample1" aria-expanded="false"
-                                aria-controls="collapseExample1"><i>Forma de
-                                    Cultivo</i></a>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="collapse" id="collapseExample1">
-                                <div class="card card-body">
-                                    É comum encontrá-la em diversos tipos de habitats, como campos, beira de matas junto
-                                    com arbustos pioneiros, beira de caminhos e ferrovias.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <br>
-
-                    <div class="row" class="d-inline-flex gap-1">
-                        <div class="col">
-                            <a class="btn btn-success btn-success:hover" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseExample2" aria-expanded="false"
-                                aria-controls="collapseExample2"><i>Distribuição
-                                    Geográfica</i></a>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="collapse" id="collapseExample2">
-                                <div class="card card-body">
+                                <div class="card-body">
                                     É uma planta nativa do Brasil e pode ser encontrada em várias regiões do país,
                                     incluindo o sul (Paraná, Santa Catarina e Rio Grande do Sul), o sudeste
                                     (Espírito
@@ -120,38 +113,8 @@
                         </div>
                     </div>
 
-                    <br>
-                    
-                    <div class="row" class="d-inline-flex gap-1">
-                        <div class="col">
-                            <button class="btn btn-success btn-success:hover" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseExample4" aria-expanded="false"
-                                aria-controls="collapseExample4"><i>Forma de aplicação</i></button>
-                        </div>
-                    </div>
-
-                    <br>
-
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="collapse" id="collapseExample4">
-                                <div class="card card-body">
-                                    <p>Modo de Preparo:</p>
-                                    <p>
-                                        - Utilize 1 colher de sobremesa (aproximadamente 2g) de folhas secas de
-                                        Erva-santa.
-                                        - Adicione as folhas a 1 xícara de chá (cerca de 150mL) de água fervente.
-                                        - Deixe a infusão repousar por alguns minutos.
-                                        - Beba a infusão de 2 a 3 vezes ao dia, conforme necessário, de acordo com
-                                        as indicações do seu profissional de saúde.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
-                
+
             </div>
         </div>
 

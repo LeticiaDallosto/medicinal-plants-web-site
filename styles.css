@@ -5,14 +5,6 @@
     background-size: auto;
 }
 
-.card-green-background {
-    background-image: linear-gradient(to bottom right, rgba(7, 80, 7, 0.507), rgba(0, 128, 0, 0.03));
-}
-
-.body-image-background-home-page {
-    background-image: url('images/card-body-home-page-background.jpg');
-}
-
 .body-image-background {
     background-image: url('images/card-body-background.jpg');
     background-size: cover;
@@ -66,6 +58,24 @@ h3 {
     display: inline-block;
 }
 
+h4 {
+    color: green;
+    margin-bottom: 30px;
+    font-family: "Verdana", sans-serif; 
+    font-size: 20px; 
+    font-weight: bold; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    display: inline-block;
+}
+
+h6 {
+    font-size: 15px; 
+    font-style: italic; 
+    color: #333; 
+}
+
 img {
     border-radius: 50%;
     box-shadow:  8px 8px 18px rgba(7, 80, 7, 0.507), -8px -8px 18px rgba(0, 128, 0, 0.03);
@@ -82,20 +92,15 @@ img {
     box-shadow:  8px 8px 18px rgba(7, 80, 7, 0.507), -8px -8px 18px rgba(0, 128, 0, 0.03);
 }
 
-.btn-success {
-    width: 200px;
+.container-title {
+    height: auto;
+    width: 250px;
     color: rgb(7, 43, 18);
     background-color: white;
     background-image: linear-gradient(to bottom right, rgba(7, 80, 7, 0.223),  rgba(255, 255, 255, 0.03));
     border-color: transparent;
-    border-radius: 30px;
     box-shadow:  8px 8px 18px rgba(7, 80, 7, 0.507), -8px -8px 18px rgba(0, 128, 0, 0.03);
-}
-
-.btn-success:hover {
-    background-color: #ffffff;
-    border-style: none;
-    color: #000000; 
+    margin: auto;
 }
 
 ol {
@@ -118,6 +123,31 @@ ol li::before {
     position: absolute;
     left: 0;
 }
+
+ul {
+    list-style-type: "➜"; 
+    color: green; 
+    
+  }
+  
+.plant-card {
+    width: 500px;
+    margin-left: 85px;
+    margin-top: 50px;
+    font-weight: bold;
+    color: #333;
+}
+
+.recipe {
+    margin-top: 20px;
+}
+
+.recipe-icon {
+    font-size: 16px;
+    color: #333;
+    margin-right: 15px;
+}
+
 
 
 
