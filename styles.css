@@ -1,8 +1,8 @@
 .head-background {
     height: 150px;
-    text-align: right;
     background-image: url('images/background.jpg');
     background-size: auto;
+    text-align: right;
 }
 
 .body-image-background {
@@ -87,6 +87,13 @@ h6 {
 img {
     border-radius: 50%;
     box-shadow:  8px 8px 18px rgba(7, 80, 7, 0.507), -8px -8px 18px rgba(0, 128, 0, 0.03);
+}
+
+.btn-link {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: rgb(10, 10, 10);  
+    transition: color 0.3s ease;
 }
 
 .body-container {
