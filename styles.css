@@ -94,6 +94,7 @@ img {
     font-size: 14px;
     color: rgb(10, 10, 10);  
     transition: color 0.3s ease;
+    text-decoration: none;
 }
 
 .body-container {
