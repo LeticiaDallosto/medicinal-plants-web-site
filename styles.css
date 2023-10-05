@@ -168,6 +168,27 @@ ul {
     font-weight: bold;
 }
 
+footer {
+    color: #fff;
+    background-image: linear-gradient(to bottom right, #333,  #525251);
+    padding: 20px;
+}
+
+.whats-link {
+    color: #25d366; 
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.insta-link {
+    color: #bc2a8d; 
+}
+
+.tab {
+    padding-left: 30px; 
+  }
+
+
 
 
 
